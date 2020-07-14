@@ -1,0 +1,122 @@
+@import '~antd/dist/antd.css';
+
+.menu {
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 45px #00000069;
+  background-color: rgba(255, 255, 255, 0.959);
+  color: #f73e3e;
+}
+
+.menu__logo {
+  width: 150px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.486);
+  color: #f73e3e;
+
+}
+
+
+.menu__logo a {
+  display: inline-block;
+  font-size: 24px;
+  padding: 19px 20px;
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+  
+}
+
+.menu__container .ant-menu-item {
+  padding: 0px 5px;
+  margin-top: 15px;
+  font-size: 19px;
+  color: #f73e3e;
+
+}
+
+.menu__container .ant-menu-submenu-title {
+  padding: 10px 20px;
+  color: #f73e3e;
+
+}
+
+.menu__container .ant-menu-item a,
+.menu__container .ant-menu-submenu-title a {
+  padding: 10px 15px;
+
+}
+
+.menu__container .ant-menu-horizontal {
+  border-bottom: none;
+
+}
+
+.menu__container .menu_left {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.486);
+
+}
+
+.menu__container .menu_rigth {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.486);
+
+}
+
+.menu__mobile-button {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none !important; /* use of important to overwrite ant-btn */
+  background: #f73e3e !important;
+  
+}
+
+.menu_drawer .ant-drawer-body {
+  padding: 0 !important;
+  background-color: rgba(255, 255, 255, 0.486);
+  
+}
+
+/* align header of Drawer with header of page */
+.menu_drawer .ant-drawer-header {
+  padding: 14px 24px !important;
+  background-color: rgba(255, 255, 255, 0.486);
+  
+}
+
+@media (max-width: 767px) {
+  .menu__mobile-button {
+    display: inline-block !important;
+    background-color: rgba(255, 255, 255, 0.486);
+
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.486);
+
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+    background-color: rgba(255, 255, 255, 0.486);
+
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+    background-color: rgba(255, 255, 255, 0.486);
+
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.486);
+
+  }
+}

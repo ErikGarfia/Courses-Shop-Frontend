@@ -1,13 +1,123 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+#titulo{
+  color: rgb(0, 0, 0);
+  font-size: 2.8rem;
+  text-shadow: 2px 2px rgba(255, 94, 0, 0.658);
+}
+
+#email, #password{
+  color: rgb(0, 0, 0);
+}
+
+.app {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+#btnIngresar{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  background-color: rgb(255, 94, 0);
+  border-radius: 30px;
+  border-color: cornsilk;
+  padding-bottom: 35px;
+}
+#btnIngresar:hover{
+  color: rgb(255, 94, 0);
+  background-color: #ffffffaf;
+  border-color: rgb(255, 94, 0);
+}
+
+#btnRegistro{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  background-color: rgb(255, 94, 0);
+  border-radius: 30px;
+  border-color: cornsilk;
+  padding-bottom: 35px;
+  width: 16rem;
+}
+#btnRegistro:hover{
+  color: rgb(255, 94, 0);
+  background-color: #ffffffaf;
+  border-color: rgb(255, 94, 0);
+}
+
+#btnAgregar{
+  color: #fff;
+  background-color: rgb(255, 166, 0);
+  font-size: 18px;
+  padding-bottom: 31px;
+  border-radius: 30px;
+}
+#btnAgregar:hover{
+  color: rgb(255, 166, 0);
+  background-color: #ffffffaf;
+  border-color: rgb(255, 166, 0);
+}
+
+
+#selecttema{
+  background-color: rgba(238, 238, 227, 0.61);
+  border:2px solid rgba(0,0,0,0.2);
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+
+a{
+  font-size: 1rem;
+}
+
+
+input.error {
+  border-color: red;
+}
+
+
+.input-feedback {
+  color: rgb(255, 0, 0);
+  height: 5px;
+  margin-top: 5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
