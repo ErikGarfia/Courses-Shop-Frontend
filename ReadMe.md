@@ -49,6 +49,8 @@ Open a new terminal
 
 
 * **Garfia Acevedo Erik** 
+* **Campos Leaños Juan Manuel**
+* **Amaya Camargo Alfredo**
 
 ## Licencia 📄
 
